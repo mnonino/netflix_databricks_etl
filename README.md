@@ -5,7 +5,7 @@ This project implements an end-to-end ETL pipeline using Databricks and PySpark 
 The pipeline ingests the Netflix Titles dataset, cleans and transforms the data, stores it as Delta tables, and produces analytical datasets to answer business questions (top genres? most productive countries?)
 
 ## Architecture of the ETL pipeline
-```text Netflix CSV
+```Netflix CSV
       |
 Bronze Layer
 (raw ingestion)
